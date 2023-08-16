@@ -9,8 +9,8 @@ $mkdir ~/catkin_ws
 $cd ~/catkin_ws
 $mkdir src
 $cd src
-$git clone https://github.com/rpmsnu/file_player_sthereo_dataset.git
-$cd ~/catkin_ws/src/file_player_sthereo_dataset
+$git clone https://github.com/rpmsnu/helipr_file_player.git
+$cd ~/catkin_ws/src/helipr_file_player
 ```
 
 ## 2. Build workspace
