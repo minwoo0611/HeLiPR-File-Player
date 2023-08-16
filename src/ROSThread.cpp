@@ -425,7 +425,7 @@ void ROSThread::OusterThread()
       if(to_string(data) + ".bin" == ouster_next_.first){
         //publish
         ouster_next_.second.header.stamp.fromNSec(data);
-        ouster_next_.second.header.frame_id = "body";
+        ouster_next_.second.header.frame_id = "ouster";
         if(save_flag_ == true && process_flag_ == true){
           std::lock_guard<std::mutex> lock(bag_mutex_);
           bag_.write("/ouster/points", ouster_next_.second.header.stamp, ouster_next_.second);
@@ -515,7 +515,7 @@ void ROSThread::VelodyneThread()
         //publish
 
         velodyne_next_.second.header.stamp.fromNSec(data); 
-        velodyne_next_.second.header.frame_id = "body";
+        velodyne_next_.second.header.frame_id = "velodyne";
         if(save_flag_ == true && process_flag_ == true){
           std::lock_guard<std::mutex> lock(bag_mutex_);
           bag_.write("/velodyne/points", velodyne_next_.second.header.stamp, velodyne_next_.second);
@@ -604,7 +604,7 @@ std::cout.precision(20);
       if(to_string(data) + ".bin" == aeva_next_.first){
         //publish
         aeva_next_.second.header.stamp.fromNSec(data) ;
-        aeva_next_.second.header.frame_id = "body";
+        aeva_next_.second.header.frame_id = "aeva";
         if(save_flag_ == true && process_flag_ == true){
           std::lock_guard<std::mutex> lock(bag_mutex_);
           bag_.write("/aeva/points", aeva_next_.second.header.stamp, aeva_next_.second);
@@ -629,7 +629,8 @@ std::cout.precision(20);
                 file.read(reinterpret_cast<char *>(&point.velocity), sizeof(float));
                 file.read(reinterpret_cast<char *>(&point.time_offset_ns), sizeof(int32_t));
                 file.read(reinterpret_cast<char *>(&point.line_index), sizeof(uint8_t));
-                file.read(reinterpret_cast<char *>(&point.intensity), sizeof(float));
+                if(data > 1691936557946849179)
+                    file.read(reinterpret_cast<char *>(&point.intensity), sizeof(float));
                 cloud.points.push_back (point);
             }
             file.close();
@@ -662,7 +663,8 @@ std::cout.precision(20);
               file.read(reinterpret_cast<char *>(&point.velocity), sizeof(float));
               file.read(reinterpret_cast<char *>(&point.time_offset_ns), sizeof(int32_t));
               file.read(reinterpret_cast<char *>(&point.line_index), sizeof(uint8_t));
-              file.read(reinterpret_cast<char *>(&point.intensity), sizeof(float));
+              if(data > 1691936557946849179)
+                  file.read(reinterpret_cast<char *>(&point.intensity), sizeof(float));
               cloud.points.push_back (point);
           }
           file.close();
