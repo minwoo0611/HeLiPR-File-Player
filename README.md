@@ -5,12 +5,10 @@
 ## Recent Updates (August 2023)
 
 ---
-
+**2023/08/17**: Link for HeLiPR dataset now available!
 **2023/08/15**: Repository for HeLiPR file player now available!
 
-We're diligently working to upload the dataset link soon. As we're also preparing for the release of our papers, there might be a slight delay for showing our paper. We appreciate your patience.
-
-Stay tuned for the launch of our dataset page and enjoy the anticipation surrounding HeLiPR! :) 
+We're diligently working to upload the [dataset link](https://sites.google.com/view/heliprdataset). As we're also preparing for the release of our papers, there might be a slight delay for showing our paper. We appreciate your patience.
 
 ---
 
