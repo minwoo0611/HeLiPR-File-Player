@@ -720,7 +720,7 @@ void ROSThread::AviaThread()
                 file.read(reinterpret_cast<char *>(&point.reflectivity), sizeof(uint8_t));
                 file.read(reinterpret_cast<char *>(&point.tag), sizeof(uint8_t));
                 file.read(reinterpret_cast<char *>(&point.line), sizeof(uint8_t));
-                file.read(reinterpret_cast<char *>(&point.offset_time), sizeof(uint16_t));
+                file.read(reinterpret_cast<char *>(&point.offset_time), sizeof(uint32_t));
                 avia_msg.points.push_back(point);
                 i++;
             }
