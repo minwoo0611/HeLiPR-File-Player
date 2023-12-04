@@ -134,7 +134,7 @@ struct LivoxPointXYZI
 } EIGEN_ALIGN16;
 POINT_CLOUD_REGISTER_POINT_STRUCT (LivoxPointXYZI,
     (float, x, x) (float, y, y) (float, z, z) (uint8_t, reflectivity, reflectivity)
-    (uint8_t, tag, tag) (uint32_t, line, line) (uint32_t, offset_time, offset_time)
+    (uint8_t, tag, tag) (uint8_t, line, line) (uint32_t, offset_time, offset_time)
 )
 
 struct Point3D {
