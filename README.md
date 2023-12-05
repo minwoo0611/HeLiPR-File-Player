@@ -1,5 +1,10 @@
 # File Player for HeLiPR Dataset
 
+👇 Check out the GIF below for a glimpse into the dataset's multiple LiDAR variety!
+<p align="center">
+  <img src="/cfg/helipr_dataset.gif" alt="Helipad Recognition Dataset">
+</p>
+
 **Maintainer**: Minwoo Jung (moonshot@snu.ac.kr)
 
 ## Recent Updates (August 2023)
