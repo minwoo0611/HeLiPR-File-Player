@@ -1,8 +1,35 @@
-# File Player for HeLiPR Dataset
+# HeLiPR Dataset Overview (File Player)
 
-👇 Check out the GIF below for a glimpse into the dataset's multiple LiDAR variety!
+Explore the diverse landscapes and advanced LiDAR technology captured in our HeLiPR dataset!
+
+🔍 **See the HeLiPR LiDAR Variety**  
+Dive into the dataset's multifaceted LiDAR variety with this informative GIF.  
 <p align="center">
-  <img src="/cfg/helipr_dataset.gif" alt="Helipad Recognition Dataset">
+  <img src="/cfg/helipr_dataset.gif" alt="HeLiPR LiDAR gif">
+</p>
+
+🌐 **Understanding the HeLiPR Dataset's Necessity**  
+Discover the challenges posed by heterogeneous LiDARs in our detailed image.  
+<p align="center">
+  <img src="/cfg/problem.jpg" alt="HeLiPR Dataset Problem">
+</p>
+
+🛰️ **Insight into Sensor Utilization**  
+Get a closer look at our system setup and the sensors involved.  
+<p align="center">
+  <img src="/cfg/setup.jpg" alt="HeLiPR Dataset System", width = "50%">
+</p>
+
+🌍 **Diverse Scenarios Explored**  
+Explore our collection of various sequences and environments through this visual guide.  
+<p align="center">
+  <img src="/cfg/trajectory.png" alt="HeLiPR Dataset Trajectory">
+</p>
+
+🔗 **Linking with the MulRan Dataset**  
+Learn about the long-term place recognition capabilities in conjunction with the MulRan dataset.  
+<p align="center">
+  <img src="/cfg/Mulran.jpg" alt="HeLiPR Dataset with MulRan", width = "70%">
 </p>
 
 **Maintainer**: Minwoo Jung (moonshot@snu.ac.kr)
