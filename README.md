@@ -1,4 +1,4 @@
-# HeLiPR Dataset Overview (File Player)
+# [HeLiPR Dataset](https://sites.google.com/view/heliprdataset) (File Player)
 
 Explore the diverse landscapes and advanced LiDAR technology captured in our HeLiPR dataset!
 
@@ -37,11 +37,15 @@ Learn about the long-term place recognition capabilities in conjunction with the
 ## Recent Updates (August 2023)
 
 ---
+**2023/12/05**: We post some images to help readers understand the HeLiPR dataset.
+
+**2023/09/26**: Link for [paper](https://arxiv.org/abs/2309.14590) now available (arxiv version)
+
 **2023/08/17**: Link for HeLiPR dataset now available.
 
 **2023/08/15**: Repository for HeLiPR file player now available.
 
-We're diligently working to upload the [dataset link](https://sites.google.com/view/heliprdataset). As we're also preparing for the release of our papers, there might be a slight delay for showing our paper. We appreciate your patience.
+We're diligently working to upload the [dataset link](https://sites.google.com/view/heliprdataset). This paper is under-reviewed, but readers can be found our paper in [arxiv] (https://arxiv.org/abs/2309.14590).
 
 ---
 
