@@ -45,7 +45,7 @@ Learn about the long-term place recognition capabilities in conjunction with the
 
 **2023/08/15**: Repository for HeLiPR file player now available.
 
-We're diligently working to upload the [dataset link](https://sites.google.com/view/heliprdataset). This paper is under-reviewed, but readers can be found our paper in [arxiv] (https://arxiv.org/abs/2309.14590).
+We're diligently working to upload the [dataset link](https://sites.google.com/view/heliprdataset). This paper is under-reviewed, but readers can be found our paper in [arxiv] (https://arxiv.org/abs/2309.14590). If user wants to utilize the undistortion or accumulation of pointcloud from .bin file, please visite the [HeLiPR-Pointcloud-Toolbox](https://github.com/minwoo0611/HeLiPR-Pointcloud-Toolbox).
 
 ---
 
