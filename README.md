@@ -34,7 +34,7 @@ Learn about the long-term place recognition capabilities in conjunction with the
 
 **Maintainer**: Minwoo Jung (moonshot@snu.ac.kr)
 
-## Recent Updates (August 2023)
+## Recent Updates (December 2023)
 
 ---
 **2023/12/06**: Open another repository for Pointcloud processing, which name is [HeLiPR-Pointcloud-Toolbox](https://github.com/minwoo0611/HeLiPR-Pointcloud-Toolbox).
